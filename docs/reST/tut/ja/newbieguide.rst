@@ -199,13 +199,13 @@ Surface.convert() を使いましょう
 私はとても、とても間違っていたとわかりました。
 
 .. comment
-The 'format' that ``convert()`` refers to isn't the *file* format (i.e. PNG,
-JPEG, GIF), it's what's called the 'pixel format'.  This refers to the
-particular way that a surface records individual colors in a specific pixel.
-If the surface format isn't the same as the display format, SDL will have to
-convert it on-the-fly for every blit -- a fairly time-consuming process.  Don't
-worry too much about the explanation; just note that ``convert()`` is necessary
-if you want to get any kind of speed out of your blits.
+    The 'format' that ``convert()`` refers to isn't the *file* format (i.e. PNG,
+    JPEG, GIF), it's what's called the 'pixel format'.  This refers to the
+    particular way that a surface records individual colors in a specific pixel.
+    If the surface format isn't the same as the display format, SDL will have to
+    convert it on-the-fly for every blit -- a fairly time-consuming process.  Don't
+    worry too much about the explanation; just note that ``convert()`` is necessary
+    if you want to get any kind of speed out of your blits.
 
 ``convert()`` が参照する'フォーマット'とは、
 PNGやJPEG、GIFのような *ファイル* フォーマットではありません。
@@ -497,7 +497,7 @@ Rectはあなたの友達です
     corner, its width, and its height.  Many pygame functions take rects as
     arguments, and they also take 'rectstyles', a sequence that has the same values
     as a rect. So if I need a rectangle that defines the area between 10, 20 and
-    40, 50, I can do any of the following::
+    40, 50, I can do any of the following
 
 Pete Shinners のラッパーは、クールなアルファ効果と速いブリット速度を備えているかもしれませんが、
 私がpygameで好きな部分はローレベルの :class:`.Rect` クラスです。
@@ -946,6 +946,7 @@ cProfile_ (またはcProfile用のビジュアライザーである SnakeViz_) �
 さあ、ゲームを書きましょう!!
 
 ----
+
 .. comment
     *David Clark is an avid pygame user and the editor of the Pygame Code
     Repository, a showcase for community-submitted python game code.  He is also
