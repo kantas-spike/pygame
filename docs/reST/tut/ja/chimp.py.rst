@@ -4,5 +4,5 @@
   pygame/examples/chimp.py
 ****************************
 
-.. literalinclude:: ../../../examples/chimp.py
+.. literalinclude:: ../../../../examples/chimp.py
    :language: python
