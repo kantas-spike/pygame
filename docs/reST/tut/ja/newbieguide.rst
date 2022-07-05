@@ -499,11 +499,11 @@ Rectはあなたの友達です
     as a rect. So if I need a rectangle that defines the area between 10, 20 and
     40, 50, I can do any of the following
 
-Pete Shinners のラッパーは、クールなアルファ効果と速いブリット速度を備えているかもしれませんが、
+Pete Shinners' のラッパーは、クールなアルファ効果と速いブリット速度を備えているかもしれませんが、
 私がpygameで好きな部分はローレベルの :class:`.Rect` クラスです。
 Rectはただの四角形です。左上の頂点の位置と、幅、高さだけで定義されます。
 多くのpygame 関数は、引数にrectを指定できます。rectと同じ値をもつシーケンスである
-`rectstyles`も引数にとります。
+`rectstyles` も引数にとります。
 もし、10,20 と 40,50の間に定義され、矩形が必要な場合は、以下のように作成できます::
 
     rect = pygame.Rect(10, 20, 30, 30)
@@ -587,7 +587,7 @@ pygame ではどの方法であっても処理に時間がかかりすぎるで�
     -----------------------------
 
 イベントサブシステムを管理する
------------------------------
+--------------------------------
 
 .. comment
     Pygame's event system is kind of tricky.  There are actually two different ways
@@ -743,7 +743,7 @@ Windowsの場合、キューをクリアせずに、長時間ゲームを続け�
     an RGB tuple -- say (0,0,0). This would make every pixel in the source image
     transparent instead of black.
 
-'Colorkey blitting'は pygame にある画像の特定色の全てのピクセルを、
+'Colorkey blitting' は pygame にある画像の特定色の全てのピクセルを、
 特定色が何色であったとしても透明にするように指示します。
 画像の残りの部分が描画された時に、これらの透明なピクセルは描画されないので、
 背景が隠れることはありません。
